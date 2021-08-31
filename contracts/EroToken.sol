@@ -22,8 +22,8 @@ contract ErgoToken is IBEP20, Ownable
     EnumerableSet.AddressSet private _excludedFromSellLock;
     EnumerableSet.AddressSet private _excludedFromStaking;
     //Token Info
-    string private constant _name = 'BabyDot';
-    string private constant _symbol = 'bDOT';
+    string private constant _name = 'Ero';
+    string private constant _symbol = 'ERO';
     uint8 private constant _decimals = 18;
     uint256 public constant _totalSupply= 101 * 10**_decimals;//equals 101
 
